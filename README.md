@@ -1,1 +1,2 @@
 # lectureTIC
+Ce code Python établit une connexion à un périphérique série via le port /dev/ttyUSB2 pour lire le TIC historique. Il lit en continu des groupes d'information à partir du périphérique. Les groupes lus sont affichés en temps réel. En cas d'erreur de communication série, le code réinitialise le port série pour tenter de récupérer la connexion. Le programme peut être arrêté en appuyant sur Ctrl+C.
